@@ -7,7 +7,7 @@ def roll_call_dwarves(arr)
 end
 
 def summon_captain_planet(arr)
-  arr.collect { |ele|
+  arr.collect { |ele| ele.upcase + "!"}
     
   end
   return new_ele
