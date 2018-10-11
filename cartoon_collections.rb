@@ -8,8 +8,7 @@ end
 
 def summon_captain_planet(arr)
   arr.collect do |ele|
-    var new_ele = ele.upcase
-    return new_ele << "!"
+    var new_ele = ele.upcase + ele << "!"
   end
 end
 
