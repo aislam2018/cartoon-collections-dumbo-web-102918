@@ -10,6 +10,7 @@ def summon_captain_planet(arr)
   arr.collect do |ele|
     var new_ele = ele.upcase + ele << "!"
   end
+  return new_ele
 end
 
 def long_planeteer_calls# code an argument here
