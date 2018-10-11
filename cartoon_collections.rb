@@ -8,9 +8,7 @@ end
 
 def summon_captain_planet(arr)
   arr.collect { |ele| ele.upcase + "!"}
-    
   end
-  return new_ele
 end
 
 def long_planeteer_calls# code an argument here
